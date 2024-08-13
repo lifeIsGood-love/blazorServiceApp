@@ -47,11 +47,13 @@ form {
 .content {
     display: flex;
     height: 100%;
+    
     z-index: 1;
     background-color: white;
 }
 
 .main {
+    text-align: center;
     flex-grow: 1;
     overflow-y: auto;
     background: linear-gradient(rgba(0,0,0,0) 40%, rgba(0,0,0,0.4) 80%);
